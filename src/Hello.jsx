@@ -1,15 +1,10 @@
-import { Component } from "react";
-
-
-class Hello extends Component{
-    render(){
-        return(
-        <div>
-            <h1>Hello Noor!</h1>
-            <p>Welcome to Queens World of Developer.</p>
-        </div>
-        )
-    }
+const Hello = (props, family) => {
+    return(
+    <div className="tc">
+        <h1 className="f1">{props.greeting}</h1>
+        <p className="f3">{props.family}</p>
+    </div>
+    )
 }
 
 export default Hello;
