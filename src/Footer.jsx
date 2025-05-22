@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
         <div className="w-100 tc">
-            <p className="f5">This is react footer</p>
+            <h2 className="f2">Welcome to Queens World of Developers.</h2>
         </div>
     )
 }
