@@ -1,8 +1,7 @@
-const Hello = (props, family) => {
+const Hello = () => {
     return(
-    <div className="tc">
-        <h1 className="f1">{props.greeting}</h1>
-        <p className="f3">{props.family}</p>
+    <div className="w-100 tc">
+        <h1 className="f1">Hi React Beginner!</h1>
     </div>
     )
 }

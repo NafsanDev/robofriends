@@ -1,13 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Hello from './Hello'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import Hello from './Hello';
+import Contents from './Contents.jsx';
+import Footer from './Footer.jsx';
 import 'tachyons';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Hello greeting = {'Hi React Beginner!'} family = {'Welcome to Queens World of Developers.'} />
-    <App />
+    <Hello/>
+    <Contents greeting = {'Welcome to Queens World of Developers.'}/>
+    <Footer/>
   </StrictMode>,
 )
