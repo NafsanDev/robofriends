@@ -1,8 +1,7 @@
-import React, {useState} from "react";
-import SearchBox from "./SearchBox";
-import CardList from "./CardList";
-import { Component } from "react";
-import Scroll from "./Scroll";
+import React, {Component} from "react";
+import SearchBox from "../components/SearchBox.jsx";
+import Scroll from "../components/Scroll";
+import CardList from "../components/CardList.jsx";
 
 class App  extends Component {
     constructor() {
