@@ -1,7 +1,7 @@
 import Card from "./Card";
 const CardList = ({robots}) => {
     return (
-        <div className="tc">
+        <div className="tc" style={{paddingTop: '40px'}}>
             {
                 robots.map((user, i) => {
                     return (
